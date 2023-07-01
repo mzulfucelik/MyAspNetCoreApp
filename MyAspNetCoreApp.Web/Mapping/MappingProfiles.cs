@@ -9,6 +9,7 @@ namespace MyAspNetCoreApp.Web.Mapping
         public MappingProfiles()
         {
             CreateMap<Product, ProductViewModel>().ReverseMap();
+            CreateMap<Visitor, VisitorViewModel>().ReverseMap();    
         }
     }
 }
